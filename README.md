@@ -8,7 +8,7 @@
 
 ---
 
-**## Deskripsi Aplikasi**
+## Deskripsi Aplikasi
 PokéCare adalah aplikasi berbasis PHP yang dibuat untuk memenuhi tugas Responsi PBO.  
 Aplikasi ini mensimulasikan sistem latihan Pokémon menggunakan konsep **Object-Oriented Programming (OOP)**.
 
