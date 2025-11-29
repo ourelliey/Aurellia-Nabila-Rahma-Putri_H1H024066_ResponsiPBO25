@@ -8,7 +8,7 @@
 
 ---
 
-**##Deskripsi Aplikasi**
+**## Deskripsi Aplikasi**
 PokéCare adalah aplikasi berbasis PHP yang dibuat untuk memenuhi tugas Responsi PBO.  
 Aplikasi ini mensimulasikan sistem latihan Pokémon menggunakan konsep **Object-Oriented Programming (OOP)**.
 
@@ -58,11 +58,3 @@ Fitur utama:
 | `history.json` | Data hasil latihan |
 | `style.css` | Tampilan UI pastel & animasi |
 
----
-
-##  Cara Menjalankan Aplikasi di Laragon
-1. Pastikan **Laragon** sudah terinstall dan berjalan.
-2. Letakkan folder project `ResponsiPBO` di `C:\laragon\www\` (atau folder web root Laragon Anda).  
-   Contoh: `C:\laragon\www\ResponsiPBO`
-3. Jalankan **Laragon**, lalu klik **Start All**.
-4. Buka browser dan akses:
