@@ -58,3 +58,5 @@ Fitur utama:
 | `history.json` | Data hasil latihan |
 | `style.css` | Tampilan UI pastel & animasi |
 
+
+![pokemon-ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/13947269-9681-4ae1-9e50-7f21a5dc6d46)
