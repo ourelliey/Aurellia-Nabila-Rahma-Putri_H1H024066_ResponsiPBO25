@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(120deg, #cfe8ff, #ffd6f8);
+    color: #333;
+    overflow-x: hidden;
+}
+
+.container, .card {
+    width: 90%;
+    max-width: 650px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.12);
+    animation: fadeIn 0.7s ease;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #6a38d3;
+}
+
+.pokemon-icon {
+    display: block;
+    margin: 0 auto 15px;
+    width: 130px;
+    animation: wiggle 2.5s infinite ease-in-out;
+}
+
+label {
+    font-weight: 600;
+    margin-top: 10px;
+    display: block;
+}
+
+select, input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    border: 2px solid #c8b6ff;
+    background: #f6f1ff;
+    font-size: 15px;
+    transition: .3s;
+}
+
+select:hover, input:hover {
+    border-color: #9f7aff;
+}
+
+button, .btn {
+    margin-top: 15px;
+    width: 100%;
+    padding: 12px;
+    background: #8e5dff;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    transition: .25s;
+    cursor: pointer;
+}
+
+button:hover, .btn:hover {
+    background: #6b3fd6;
+    transform: scale(1.04);
+}
+
+.result {
+    margin-top: 20px;
+    padding: 18px;
+    background: #f3eaff;
+    border: 2px solid #d8c8ff;
+    border-radius: 15px;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+th {
+    background: #c9a9ff;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #f0e6ff;
+    font-size: 14px;
+}
+
+tr:nth-child(even) {
+    background: #f9f4ff;
+}
+
+a {
+    color: #6d48e6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4e2fcf;
+}
+
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(3deg); }
+    50% { transform: rotate(-3deg); }
+    75% { transform: rotate(3deg); }
+    100% { transform: rotate(0deg); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(15px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 480px) {
+
+    .container, .card {
+        padding: 18px;
+        margin-top: 20px;
+    }
+
+    .pokemon-icon {
+        width: 110px;
+    }
+
+    table td, table th {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    button, .btn {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    select, input {
+        font-size: 14px;
+        padding: 10px;
+    }
+}

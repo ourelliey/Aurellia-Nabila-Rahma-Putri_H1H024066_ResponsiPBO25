@@ -1,0 +1,68 @@
+[
+    {
+        "trainer": "PRTC_Trainee",
+        "pokemon": "Ekans",
+        "type": "Poison",
+        "kind": "Attack",
+        "intensity": 20,
+        "level_before": 5,
+        "level_after": 9,
+        "hp_before": 30,
+        "hp_after": 40,
+        "special_move": "Poison Tail \u2014 serangan cepat yang menambah peluang racun pada lawan.",
+        "desc": "Latihan Attack (intensity 20) => +3 level, +10 HP (Poison bonus: +1 level)",
+        "time": "2025-11-28 19:16:16"
+    },
+    {
+        "nama": "Ekans",
+        "type": "Poison",
+        "jenis": "Defense",
+        "intensitas": 70,
+        "level_before": 5,
+        "level_after": 5,
+        "hp_before": 30,
+        "hp_after": 30,
+        "exp_before": 0,
+        "exp_after": 70,
+        "waktu": "2025-11-28 19:52:31"
+    },
+    {
+        "nama": "Ekans",
+        "type": "Poison",
+        "jenis": "Attack",
+        "intensitas": 70,
+        "level_before": 5,
+        "level_after": 5,
+        "hp_before": 30,
+        "hp_after": 30,
+        "exp_before": 0,
+        "exp_after": 70,
+        "waktu": "2025-11-28 19:58:34"
+    },
+    {
+        "nama": "Ekans",
+        "type": "Poison",
+        "jenis": "Attack",
+        "intensitas": 80,
+        "level_before": 5,
+        "level_after": 5,
+        "hp_before": 30,
+        "hp_after": 30,
+        "exp_before": 0,
+        "exp_after": 80,
+        "waktu": "2025-11-28 21:23:10"
+    },
+    {
+        "nama": "Ekans",
+        "type": "Poison",
+        "jenis": "Speed",
+        "intensitas": 90,
+        "level_before": 5,
+        "level_after": 5,
+        "hp_before": 30,
+        "hp_after": 30,
+        "exp_before": 0,
+        "exp_after": 90,
+        "waktu": "2025-11-29 04:08:09"
+    }
+]
